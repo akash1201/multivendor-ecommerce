@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="SemiColonWeb" />
+        <!-- Stylesheets
+        ============================================= -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/style.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/swiper.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/dark.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/font-icons.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/magnific-popup.css" type="text/css" />
+        <link rel="stylesheet" href="../theme/css/responsive.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <!-- Document Title
+        ============================================= -->
+        <title>Vendor Page</title>       
+        <style>
+            #header-wrap, #header {
+                height: 60px;
+            }
+            .dark #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark) #logo, #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) #logo {
+                border-right-color: transparent;
+            }
+            .dark #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark), #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) {
+                border-bottom-color: transparent;
+            }
+            .slider-caption h2 {
+                font-size: 20px;
+                text-transform: inherit;
+            }
+            #header.transparent-header.full-header #header-wrap {
+                height: 60px;
+                border-bottom: transparent;
+            }
+            #logo img {
+                height: 40px;
+            }
+            #top-cart {
+                margin: 14px 0px 18px 15px;
+            }
+            #top-cart a {
+
+                color: #fff;
+            }
+            #primary-menu ul li > a {
+                padding: 20px 15px;
+                color: #fff;
+            }
+            #primary-menu {
+                float: left;
+            }
+            #header.sticky-header #header-wrap {
+                background: #0c297e;
+            }
+            #header.sticky-header:not(.static-sticky) #top-cart {
+                margin-top: 14px !important;
+            }
+            #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+                height: 40px;
+            }
+            .dark .slider-caption h2 {
+                color: #fff;
+            }
+            .slider-text {
+                position: relative;
+                max-width: 800px;
+                text-align: center;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 151px;
+                color: #fff;
+            }
+            .dark h2 {
+                color: #fff
+            }
+            #header.transparent-header.full-header #logo {
+                border-right: 0px solid;
+            }
+            #header.full-header #logo {
+                border-right: 0px solid;
+            }
+            @media (min-width:1200px){.col-lg-15{width:20%;float:left}}
+            .team-title {
+                padding-top: 0px;
+            }
+            .team-desc {
+                text-align: left;
+            }
+            .team-desc.team-desc-bg {
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+                padding: 10px;
+            }
+            .team-desc:hover {
+                border-color: #0c297e;
+            }
+            .team-title span {
+                font-family: Bloomfield, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                color: rgb(153, 153, 153);
+                font-style: inherit;
+            }
+            .team-desc-bg {
+                height: 242px;
+            }
+            .team-title h4 {
+                text-transform: inherit;
+            }
+            /***   Footer Styling   ***/
+            #footer {
+                border-top: 0px;
+            }
+            #footer.dark {
+                background-color: #fff;
+            }
+            .dark #copyrights {
+                border-top: 1px solid rgb(153, 153, 153);
+                background-color: #fff;
+            }
+            #copyrights {
+                padding: 12px;
+            }
+            .dark .widget h4 {
+                color: rgb(51, 51, 51);
+            }
+            .dark .widget_links li a {
+                color: rgb(54, 0, 96);
+            }
+            .dark .widget_links li a:hover {
+                color: #1ABC9C;
+            }
+            .widget > h4 {
+                text-transform: inherit;
+            }
+            .dark .footer-widgets-wrap a {
+                color: black;
+            }
+            .dark .footer-widgets-wrap a:hover {
+                color: black;
+            }
+            .dark .spost .entry-title h4 a {
+                color: rgb(54, 0, 96);
+            }
+            .dark .spost .entry-title h4 a:hover {
+                color: #1ABC9C;
+            }
+            #copyrights .col_half {
+                color: black;
+            }
+            .dark #copyrights {
+                text-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+            }
+            /***   End   ***/
+            /***   Customise 5 column   ***/
+            .col-lg-15,.col-md-15,.col-sm-15,.col-xs-15 {
+                width:50%;
+                position:relative;
+                min-height:1px;
+                padding-right:10px;
+                padding-left:10px
+            }
+            @media (min-width:480px){
+                .col-xs-15 {
+                    width:50%;
+                    float:left
+                }
+            }
+            @media (min-width:768px){
+                .col-sm-15 {
+                    width:20%;
+                    float:left
+                }
+            }
+            @media (min-width:992px){
+                .col-md-15{
+                    width:20%;
+                    float:left
+                }
+            }
+            @media (min-width:1200px){
+                .col-lg-15{
+                    width:20%;
+                    float:left
+                }
+            }
+           
+
+            .SliderImg
+            {
+                height: 140px;
+            }
+            #mainSlider .carousel-control.left
+            {
+                background-image: none;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                left: 7px;
+            }
+            #mainSlider .carousel-control:hover.left 
+            {
+                background-color: #556273;
+                color: #fff;
+            }
+            #mainSlider .carousel-control.right 
+            {
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+                right: 7px;
+            }
+            #mainSlider .carousel-control:hover.right 
+            {
+                background-color: #556273;
+                color: #fff;
+            }
+            #mainSlider .carousel-control 
+            {
+                background-color: #fff;
+                height: 28px;
+                opacity: 1;
+                padding-left: 5px;
+                padding-top: 0px;
+                padding-right: 5px;
+                text-shadow: none;
+                top: 43%;
+                width: 25px;
+                color: #999;
+            }
+            .carousel-control.left
+            {
+                background-repeat: repeat-x;
+            }
+            .fa 
+            {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+            }
+            .carousel-control
+            {
+                text-align: center;
+            }
+            .carousel-inner.carousel-latest-news
+            {
+                height: 140px;
+            }		
+            .carousel-indicators {
+                margin-bottom: 0px;
+            }
+            .MultiStoryModule-overlay {
+                margin-left: 20px;
+                width: 89%;
+                height: 144px;
+                margin-top: -74px;
+                padding: 32px 38px 24px;
+                background: #fff;
+                border-bottom: 4px solid #a0b5e8;
+            }
+            #footer .footer-widgets-wrap {
+                padding: 0px 0px 60px 0px;
+            }
+
+            .differnet-text.text-center a{
+                color:white;
+                font-size: 17px;
+                margin-left: 35px;
+            }
+            .differnet-text.text-center a:hover{
+                color:white;
+            }
+            #slider-arrow-right:hover {
+                background: transparent;
+            }
+            #top-cart a {
+                font-size: 16px;
+            }
+            #slider-arrow-left i {
+                font-size: 38px;
+            }
+            #slider-arrow-right i {
+                font-size: 38px;
+            }
+            body{
+                font-size: 16px;
+            }
+            .under-line-a{color:black;font-weight: bold;text-decoration: underline !important;}
+            .under-line-a:hover{color:black;}
+            .row a{color:black;font-weight: bold;}
+            .row a:hover{color:black;font-weight: bold;}
+            #primary-menu ul li > a{
+                text-transform: inherit;
+            }
+        </style>
+    </head>
+    <body class="stretched">
+        <!-- Document Wrapper
+        ============================================= -->
+        <div id="wrapper" class="clearfix">
+            <!-- Header
+            ============================================= -->
+            <header id="header" class="transparent-header full-header" data-sticky-class="not-dark" style="background: #0c297e">
+                <div id="header-wrap">
+                    <div class="container-fluid clearfix" style="height: 60px">
+                        <div class="col-lg-1 col-md-1">
+                            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                            <!-- Logo
+                            ============================================= -->
+                            <div id="logo" style="padding:6px 15px 0px 0px;font-weight: bold;">
+                                <span style="color: #fff;font-size: 24px">Joy</span>
+                            </div><!-- #logo end -->
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-lg-offset-1">
+                            <nav id="primary-menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><div style="font-size: 15px">Sell</div></a>
+                                        <ul style="margin-top: -2px">
+                                            <li><a href="index-corporate.html"><div>How it works</div></a></li>
+                                            <li><a href="index-corporate-2.html"><div>Before you start</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Adding your products</div></a></li>
+                                            <li><a href="index-corporate-4.html"><div>Attracting customers</div></a></li>
+                                            <li><a href="index-corporate-4.html"><div>After your first sale</div></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><div style="font-size: 15px">Fulfill</div></a>
+                                        <ul style="margin-top: -2px">
+                                            <li><a href="index-corporate.html"><div>How to ship</div></a></li>
+                                            <li><a href="index-corporate-2.html"><div>Fullfillment by Amazon</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Fullfillment by seller</div></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><div style="font-size: 15px">Pricing</div></a>
+                                        <ul style="margin-top: -2px">
+                                            <li><a href="index-corporate.html"><div>Selling plans</div></a></li>
+                                            <li><a href="index-corporate-2.html"><div>Cost calculator</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Referral fees</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Fulfillment fees</div></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><div style="font-size: 15px">Grow</div></a>
+                                        <ul style="margin-top: -2px">
+                                            <li><a href="index-corporate.html"><div>How to expand</div></a></li>
+                                            <li><a href="index-corporate-2.html"><div>Advertise</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Build a brand</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Sell globally</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Sell healthy</div></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><div style="font-size: 15px">Learn</div></a>
+                                        <ul style="margin-top: -2px">
+                                            <li><a href="index-corporate.html"><div>Amazon resources</div></a></li>
+                                            <li><a href="index-corporate-2.html"><div>Seller University</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>FAQ</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Day One Insights</div></a></li>
+                                            <li><a href="index-corporate-3.html"><div>Other resources</div></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top: 15px">
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <a href="#" style="color: white;font-size: 15px;">Sign up</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-right: 24px;">
+                                        <a href="#" id="top-cart-trigger" style="color: white;font-size: 15px;" class="pull-right">Login</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="section" style="padding: 0px;background: #fff;margin-top: 30px; margin-bottom: 0px">
+                <div class="container clearfix">
+                    <div class="row topmargin-sm" style="margin-top: 12px !important">
+                        <div class="section" style="padding: 0px;background: #fff;margin-top: 0px; margin-bottom: 0px">
+                            <div class="container clearfix">
+                                <div class="row topmargin-sm" style="margin-top: 12px !important">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-left: 0px"><br/><br/><br/>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <a href="#">
+                                                        <h1 style="font-size: 70px; line-height: 80px; font-weight: bold">Become an <br>Amazon seller</h1>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="" style="width:100%;margin-bottom: 4px">
+                                                        <a href="#" >
+                                                            <button style="border-top-right-radius: 36px;border-top-left-radius: 36px;height: 60px;width: 160px;border-bottom-width: 2px;border-bottom-style: solid;border-bottom-left-radius: 36px;border-bottom-right-radius: 36px;background-color: #ff9900;border: 2px solid #ff9900;box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);color: #232f3e;">
+                                                                Sign up
+                                                            </button>
+                                                        </a>  
+                                                    </div>
+                                                    <span style="font-size: 12px">$39.99 a month + selling fees</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <a href="#">
+                                                        <img src="../theme/images/vendor/01.png" class="center-block" alt="" style="height: 588px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br/><br/>
+            <div class="section" style="padding: 0px;background: #fff;margin-top: 0px; margin-bottom: 0px">
+                <div class="container clearfix">
+                    <div class="row topmargin-sm" style="margin-top: 40px !important; margin-bottom: 50px">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border: 1px solid #ccc; height: 422px">
+                                        <a href="#">
+                                            <img src="../theme/images/vendor/02.png" style="padding: 30px 0px 8px 12px"/>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <h2 style="font-weight: 700;padding-left: 12px">Reach millions</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 400">Fresh new startups and Fortune 500s. B2B and B2C. Brand owners and resellers. They all sell on Amazon for a reason: 300 million customers shop our stores worldwide.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 700;margin-top: 50px;color: #232f3e">How it works -></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border: 1px solid #ccc;height: 422px">
+                                        <a href="#">
+                                            <img src="../theme/images/vendor/03.png" style="padding: 30px 0px 8px 12px"/>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <h2 style="font-weight: 700;padding-left: 12px">Deliver smiles</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 400">Leave the shipping, returns, and customer service to us with Fulfillment by Amazon (FBA). Want to take care of shipping yourself? You can do that too.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 700;margin-top: 50px;color: #232f3e">Explore shipping -></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border: 1px solid #ccc;height: 422px">
+                                        <a href="#">
+                                            <img src="../theme/images/vendor/04.png" style="padding: 30px 0px 8px 12px"/>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <h2 style="font-weight: 700;padding-left: 12px">Make money</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 400">Choose from flexible selling plans, product categories, and fulfillment options that fit your business needs.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="Col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <p style="padding-left: 12px;color: #6c7778;font-weight: 700;margin-top: 76px;color: #232f3e">See pricing -></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br/> 
+                    </div>
+                </div>
+            </div><br/>
+            <section id="slider" style="padding: 0px;background: #fff;margin-top: 30px; margin-bottom: 0px">
+                <div style="height: 358px">
+                    <div class="swiper-container swiper-parent">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide dark" style="background-image: url('../theme/images/slider/swiper/vendorslider.jpg'); height: 358px">
+                                <div class="container clearfix">
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide dark" style="background-image: url('../theme/images/slider/swiper/vendorslider.jpg'); height: 358px">
+                                <div class="container clearfix">
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide dark" style="background-image: url('../theme/images/slider/swiper/vendorslider.jpg'); height: 358px">
+                                <div class="container clearfix">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div id="slider-arrow-left" style="background: transparent"><i class="icon-angle-left"></i></div>
+                        <div id="slider-arrow-right" style="background: transparent"><i class="icon-angle-right"></i></div>
+                    </div>
+                </div>
+            </section>
+            <br/><br/><br/>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h4 class="pull-right" style="color: #232f3e;font-size: 15px;font-weight: normal">Just have a few items to sell? </h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-left: 0px">
+                        <h4 class="pull-left" style="font-size: 16px">Sign up to become an individual seller</h4> 
+                    </div>
+                </div>
+            </div><br/>
+            <div class="section" style="padding: 0px;background: #fff;margin-top: 30px; margin-bottom: 0px">
+                <div class="container clearfix">
+                    <div class="row topmargin-sm" style="margin-top: 12px !important">
+                        <div class="section" style="padding: 0px;background: #fff;margin-top: 0px; margin-bottom: 0px">
+                            <div class="container clearfix">
+                                <div class="row topmargin-sm" style="margin-top: 12px !important">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-left: 0px"><br/><br/><br/>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <a href="#">
+                                                        <h1 style="font-size: 60px; line-height: 80px; font-weight: bold">Start selling today</h1>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <a href="#">
+                                                        <h3 style="font-size: 20px">Put your products in front of the millions of customers that search Amazon.com every day.</h3>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="" style="width:100%;margin-bottom: 4px">
+                                                        <a href="#" >
+                                                            <button style="border-top-right-radius: 36px;border-top-left-radius: 36px;height: 60px;width: 160px;border-bottom-width: 2px;border-bottom-style: solid;border-bottom-left-radius: 36px;border-bottom-right-radius: 36px;background-color: #ff9900;border: 2px solid #ff9900;box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);color: #232f3e;">
+                                                                Sign up
+                                                            </button>
+                                                        </a>  
+                                                    </div>
+                                                    <span style="font-size: 12px">$39.99 a month + selling fees</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <a href="#">
+                                                        <img src="../theme/images/vendor/05.png" class="center-block" alt="" style="height: 588px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br/><br/>
+            
+            <!-- Content   End
+            ============================================= -->
+            <!-- Footer
+            ============================================= -->
+            <footer id="footer" class="dark">
+                <div class="container">
+                    <!-- Footer Widgets
+                    ============================================= -->
+                    <div class="footer-widgets-wrap clearfix">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h4 style="font-weight: 700">Get to Know Us</h4>
+                                <ul style="list-style: none; line-height: 2">
+                                    <li><a href="#">Our Company</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h4 style="font-weight: 700">Joy Business</h4>
+                                <ul style="list-style: none; line-height: 2">
+                                    <li><a href="#">Sell on Joy</a></li>
+                                    <li><a href="#">Advertise With Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h4 style="font-weight: 700">Customer Service</h4>
+                                <ul style="list-style: none; line-height: 2">
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h4 style="font-weight: 700">Social</h4>
+                                <div id="post-list-footer">
+                                    <a href="#" class="social-icon si-small si-borderless si-instagram">
+                                        <i class="icon-instagram"></i>
+                                        <i class="icon-instagram"></i>
+                                    </a>
+                                    <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .footer-widgets-wrap end -->
+                </div>
+                <!-- Copyrights
+                ============================================= -->
+                <div id="copyrights">
+                    <div class="container clearfix">
+                        <div class="col_half">
+                            Copyrights &copy; 2020 Joy.com, Inc.
+                        </div>
+                        <div class="col_half col_last tright">
+                            <div class="clear"></div>
+                            <i class="icon-envelope2"></i> contact@joy.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-2222-3333 <span class="middot">&middot;</span>
+                        </div>
+                    </div>
+                </div><!-- #copyrights end -->
+            </footer>
+        </div><!-- #wrapper end -->
+        <!-- Go To Top
+        ============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
+        <!-- External JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="../theme/js/jquery.js"></script>
+        <script type="text/javascript" src="../theme/js/plugins.js"></script>
+        <!-- Footer Scripts
+        ============================================= -->
+        <script type="text/javascript" src="../theme/js/functions.js"></script>
+    </body>
+</html>
